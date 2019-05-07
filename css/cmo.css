@@ -1,0 +1,519 @@
+/*index.php*/
+.index{
+	text-align: left;
+	margin: auto; 
+}
+.jumbotron{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #232526;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.img-responsive {
+    margin: 0 auto;
+}
+.vertical_middle {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.index_form {
+	text-align: left !important;
+}
+.btn.btn-info {
+	color: rgb(255 83 83);
+	border-color: rgb(255 83 83);
+	background-color: rgb(56 58 59);
+}
+/*login_error.html*/
+.error_h1 {
+	color: rgb(255 83 83) !important;
+}
+.error_p {
+	color: rgb(255 83 83);
+}
+/*reg.php*/
+legend {
+	font-weight: bold;
+	border-bottom: 1px solid transparent;
+	font-size: 14px;
+}
+/**************************************************************/
+/*****************radio buttons start**************************/
+.checkbox-inline {
+	color: white;
+	font-size: 16px !important;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radiobox_inline input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark_radio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radiobox_inline:hover input ~ .checkmark_radio {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radiobox_inline input:checked ~ .checkmark_radio {
+    background-color: #a94442;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark_radio:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radiobox_inline input:checked ~ .checkmark_radio:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radiobox_inline .checkmark_radio:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: rgb(56 58 59);
+}
+/*****************radio buttons end**************************/
+/**************************************************************/
+/*****************checkbox start****************************/
+/* The checkbox_inline */
+.checkbox_inline {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox_inline input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark_checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox_inline:hover input ~ .checkmark_checkbox {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox_inline input:checked ~ .checkmark_checkbox {
+    background-color: #a94442;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark_checkbox:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox_inline input:checked ~ .checkmark_checkbox:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox_inline .checkmark_checkbox:after {
+    left: 9px;
+    top: 5px;
+    width: 8px;
+    height: 13px;
+    border: solid rgb(56 58 59);	/*indicator*/
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/*****************checkbox end****************************/
+/*********************************************************/
+/*law.html*/
+#data_protection h1, p{
+	color: #a94442;
+}
+#data_protection h2{
+	text-decoration: underline;
+	color: #a94442;
+}
+/*game.php*/
+#main {
+	width:100%;
+	height:60%;
+	background: url(../img/city/KyotoCity.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: rgb(56 58 59);
+	position: relative;
+	border-bottom: 1px solid black;
+}
+#chat {
+	width:75%;
+	height:30%;
+	float: left;
+	background: white;
+	position: relative;
+	text-align: left;
+	overflow-y: scroll;
+	border-bottom: 1px solid black;
+}
+#room {
+	float:right;
+	width:25%;
+	height:30%;
+	background: white;
+	position: relative;
+	border-bottom: 1px solid black;
+}
+#footer {
+	clear: both;
+	width:100%;
+	height:10%;
+	background: rgb(56 58 59);
+	position: relative;
+}
+/*menu.php*/
+#pop_profile {
+	overflow: auto;
+	height: 325px;
+	width: 500px;
+	border:2px solid;
+	padding:10px;
+	background: rgb(204 153 204);
+	border-radius:9px;
+	display:none;
+	text-align: left;
+	z-index: 1;
+	position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+#close_pop_profile {
+	right:5px;
+	top:5;
+	float:right;
+}
+#pop_monsters {
+	overflow: auto;
+	height: 490px;
+	width: 565px;
+	border:2px solid;
+	padding:10px;
+	background:rgb(102 153 204);
+	border-radius:9px;
+	display:none;
+	text-align: left;
+	z-index: 1;
+	position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+#close_pop_monsters {
+	right:5px;
+	top:5;
+	float:right;
+}
+#pop_backpack {
+	overflow: auto;
+	height: 505px;
+	width: 515px;
+	border:2px solid;
+	padding:10px;
+	background:rgb(102 204 204);
+	border-radius:9px;
+	display:none;
+	text-align: left;
+	z-index: 1;
+	position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+#close_pop_backpack {
+	right:5px;
+	top:5;
+	float:right;
+}
+#pop_post {
+	overflow: auto;
+	height: 300px;
+	width: 500px;
+	border:2px solid;
+	padding:10px;
+	background:#fff;
+	border-radius:9px;
+	display:none;
+	text-align: left;
+	z-index: 1;
+	position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+#close_pop_post {
+	right:5px;
+	top:5;
+	float:right;
+}
+#pop_masters {
+	overflow: auto;
+	height: 500px;
+	width: 530px;
+	border:2px solid;
+	padding:10px;
+	background:rgb(204 153 204);
+	border-radius:9px;
+	display:none;
+	text-align: left;
+	z-index: 1;
+	position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+#close_pop_masters {
+	right:5px;
+	top:5;
+	float:right;
+}
+#pop_clans {
+	overflow: auto;
+	height: 300px;
+	width: 500px;
+	position:fixed;
+	top: 10%;
+	left: 30%;
+	border:2px solid;
+	padding:10px;
+	background:#fff;
+	border-radius:9px;
+	display:none;
+	text-align: left;
+	position: absolute;
+	z-index: 1;
+}
+#close_pop_clans {
+	right:5px;
+	top:5;
+	float:right;
+}
+#pop_cardInfo {
+	overflow: auto;
+	height: 500px;
+	width: 580px;
+	border:2px solid;
+	padding:10px;
+	background:rgb(103 204 114);
+	border-radius:9px;
+	display:none;
+	text-align: left;
+	z-index: 1;
+	position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+#close_pop_cardInfo {
+	right:5px;
+	top:5;
+	float:right;
+}
+/*tooltip*/
+a.tooltips {
+  position: relative;
+  display: inline;
+}
+a.tooltips span {
+  position: absolute;
+  width:80px;
+  color: #FFFFFF;
+  background: #000000;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 6px;
+}
+a.tooltips span:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+  border-bottom: 8px solid #000000;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+a:hover.tooltips span {
+  visibility: visible;
+  opacity: 0.8;
+  top: 30px;
+  left: 50%;
+  margin-left: -40px;
+  z-index: 999;
+}
+/*tooltip end*/
+/*monsters*/
+#start0 p, #start1 p, #start2 p, #start3 p, #start4 p, #start5 p{
+	color: rgb(51, 51, 51) !important;
+}
+/*tooltip_ci*/
+a.tooltips_ci {
+  position: relative;
+  display: inline;
+  cursor: help;
+}
+a.tooltips_ci span {
+  position: absolute;
+  width: 230px;
+  color: #FFFFFF;
+  background: #000000;
+  padding-top: 5px;
+  height: 75px;
+  line-height: 18px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 6px;
+}
+a.tooltips_ci span:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+  border-bottom: 8px solid #000000;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+a:hover.tooltips_ci span {
+  visibility: visible;
+  margin-left: -40px;
+  z-index: 999;
+}
+/*tooltip end*/
+/*scrollbar*/
+::-webkit-scrollbar {
+	width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+	border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+/*end*/
+/*Profile*/
+#avatar {
+	height: 250px;
+	width: 131px;
+	float: left;
+	position: relative;
+	left: -15px;
+}
+#profileTable {
+	width: 349px;
+	height: 245px;
+	margin-top: -20px;
+	margin-left: 135px;
+	float: right;
+	position: fixed;
+}
+.slot {
+	width: 25px;
+	height: 25px;
+}
+/*Monsters*/
+#monsters th, #monsters td{
+	margin-top: -5px;
+	padding-left: 25px;
+	padding-top: 5px;
+}
+.image {
+	display: block;
+    /*margin-left: 27px;*/
+	margin-top: -16px;
+	width: 122px;
+	height: 110px;
+	cursor: pointer;
+}
+progress.current_hp {
+	color: black;
+}
+progress.current_exp {
+
+}
+progress.current_hp:after {
+	content: attr(value);
+}
+progress.current_exp:after {
+	content: attr(value);
+}
+.i_image {
+	margin-top: -30px;
+	height: 25px;
+	width: 25px;
+	float: right;
+	cursor: pointer;
+}
+
+
