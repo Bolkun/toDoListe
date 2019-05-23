@@ -113,14 +113,11 @@ class User
             } else {
                 header('Location: login_error.html');
             }
-        } else {
-            header('Location: login_error.html');
         }
     }
 
     public function setSession($oDb, $sNickName)
     {
-        session_start();
         $iRandVal = rand(0, 1000000000);
         $_SESSION["iID"] = $iRandVal;
         $_SESSION["sNickName"] = $sNickName;

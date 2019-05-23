@@ -38,7 +38,7 @@ $jsonUser = $user->jsonEncodeUser();
         <button class="close" aria-label="Close" id='close_pop_backpack' onclick="document.getElementById('pop_backpack').style.display='none'">
             <span aria-hidden="true">&times;</span>
         </button><br>
-        <?php // require 'backpack.php'; ?>
+        <?php require 'backpack.php'; ?>
     </div>
     <a class="tooltips">
         <img src='img/menu/post.png' onclick="post()" style="height: 80px; width: 80px; cursor: pointer;">

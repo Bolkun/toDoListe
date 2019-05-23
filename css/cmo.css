@@ -516,4 +516,167 @@ progress.current_exp:after {
 	cursor: pointer;
 }
 
+/*Monster0 1 2 3 4 5*/
+#menu0, #menu1, #menu2, #menu3, #menu4, #menu5 {
+	float: left;
+	margin-top: -175px;
+	margin-left: 200px;
+}
+.types {
+	float: left;
+	margin-top: -140px;
+	margin-left: 200px;
+	color:rgb(51, 51, 51);
+	font-size:16px;
+}
+.start {
+	float: left;
+	margin-top: -45px;
+	margin-left: 200px;
+}
+.gens {
+	float: left;
+	margin-top: -100px;
+	margin-left: 200px;
+	color:rgb(51, 51, 51);
+	font-size:16px;
+}
+#stats_table0 th, #stats_table0 td,
+#stats_table1 th, #stats_table1 td,
+#stats_table2 th, #stats_table2 td,
+#stats_table3 th, #stats_table3 td,
+#stats_table4 th, #stats_table4 td,
+#stats_table5 th, #stats_table5 td{
+	padding-left: 0;
+	padding-top: 0;
+}
+#stats0, #stats1, #stats2, #stats3, #stats4, #stats5 {
+	float: left;
+	margin-top: -145px;
+	margin-left: 200px;
+	padding-top: 10px;
+}
+.ev {
+	float: left;
+	margin-top: 10px;
+}
+#atack_list0 th, #atack_list0 td,
+#atack_list1 th, #atack_list1 td,
+#atack_list2 th, #atack_list2 td,
+#atack_list3 th, #atack_list3 td,
+#atack_list4 th, #atack_list4 td,
+#atack_list5 th, #atack_list5 td
+{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+#atacks0, #atacks1, #atacks2, #atacks3, #atacks4, #atacks5 {
+	float: left;
+	margin-top: -145px;
+	margin-left: 190px;
+	padding-top: 5px;
+}
+.atack_link {
+	text-decoration: none;
+}
+
+progress.hp_progress:after {
+	content: attr(value);
+}
+progress.a_progress:after {
+	content: attr(value);
+}
+progress.d_progress:after {
+	content: attr(value);
+}
+progress.s_progress:after {
+	content: attr(value);
+}
+progress.sa_progress:after {
+	content: attr(value);
+}
+progress.sd_progress:after {
+	content: attr(value);
+}
+.types img {
+	height: 35px;
+	width: 35px;
+}
+.atack_type{
+	height: 35px;
+	width: 35px;
+}
+#tabs0, #tabs1, #tabs2 {
+	margin-top: -40px;
+}
+#tabs3, #tabs4, #tabs5 {
+	margin-top: -10px;
+}
+#info0, #info1, #info2, #info3, #info4, #info5 {
+	padding-top: 10px;
+}
+progress {
+	height: 20px;
+}
+.pluses_stats {
+	height: 20px;
+	margin-top: 15px;
+	margin-left: 5px;
+	line-height: 0.5 !important;
+}
+td {
+	height: 31px;
+}
+/***Selected Item **/
+ #selected {
+ 	/*background: rgb(92 184 92);*/
+ }
+
+#name_value {
+	text-align: center;
+	color: rgb(51 51 51);
+	font-size: 16px;
+}
+
+#img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -22px;
+}
+
+#amount {
+	text-align: center;
+	margin-top: -8px;
+	color: rgb(51 51 51);
+	font-size: 16px;
+}
+
+#desc {
+	text-align: center;
+	margin-top: -5px;
+	color: rgb(51 51 51);
+	font-size: 16px;
+}
+
+#forma {
+	text-align: center;
+}
+
+.item_use {
+	height: 30px;
+	line-height: 0.7;
+	margin-top: -3px;
+}
+
+.form_control {
+	width: 100px;
+	text-align: center;
+	display: inline-block;
+	color: rgb(255 83 83);
+	border-color: rgb(255 83 83);
+	background-color: rgb(56 58 59);
+	height: 30px;
+	line-height: 0.5;
+}
 

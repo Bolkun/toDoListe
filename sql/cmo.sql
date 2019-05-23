@@ -143,7 +143,7 @@ CREATE TABLE IF NOT EXISTS `monster_list` (
 	ExpGroup int(11) NOT NULL,					  /*1-5*/
 	EvoLvl int(11) NOT NULL,					    /*Эволюция  (number of evolution)*/
 	EvoVkogo int(11) NOT NULL,					  /*Номер еволюции*/
-	Hp int(11) NOT NULL,							    /*Базовый стат ХП*/
+	Hpe int(11) NOT NULL,							    /*Базовый стат ХП*/
 	Atk int(11) NOT NULL,							    /*Баз. стат атаки*/
 	Def int(11) NOT NULL,							    /*Баз. стат защиты*/
 	Spd int(11) NOT NULL,							    /*Баз. стат скорости*/
@@ -156,7 +156,7 @@ CREATE TABLE IF NOT EXISTS `monster_list` (
 1-Трава,2-Огонь,3-Вода,4-Яд,5-Лёд,6-Призрак,7-Тьма,8-Леающий,9-Нормальный,10-Дракон,11-Камень,12-Земля,13-Жук,14-Электричество,15-Психический,16-Сталь,17-Боевой,18-Магический
 Summe allen Stats ist 600
 */
-INSERT INTO monster_list (ML_ID, MLImage, `Name`, Type1, Type2, ExpGroup, EvoLvl, EvoVkogo, Hp, Atk, Def, Spd, Sp_A, Sp_D) VALUES
+INSERT INTO monster_list (ML_ID, MLImage, `Name`, Type1, Type2, ExpGroup, EvoLvl, EvoVkogo, Hpe, Atk, Def, Spd, Sp_A, Sp_D) VALUES
 (1, '1.png', 'Bordox', 9, 0, 3, 0, 0, 170, 120, 75, 40, 75, 120),
 (2, '2.png', 'Zikudza', 9,0, 2, 0, 0, 105, 135, 89, 91, 70, 110),
 (3, '3.png', 'Maorito', 9,0, 5, 0, 0, 80, 80, 75, 140, 120, 105),

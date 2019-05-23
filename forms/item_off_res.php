@@ -5,4 +5,4 @@ require '../class/db.php';
 session_start();
 
 $item = new Item();
-$item->setItem();
+$item->takeOffItem();

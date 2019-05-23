@@ -1,6 +1,8 @@
 ﻿<?php
 require 'class/user.php';
 
+session_start();
+
 $user = new User();
 $user->loginSubmit();
 ?>
